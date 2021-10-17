@@ -1,0 +1,36 @@
+{
+
+    "yaml.schemas": {
+        "kubernetes": "Pod.yaml, Deployment,yaml, ReplicaSet.yaml, Job.yaml ",
+        "ansible": ["^/roles/*/tasks/*.yaml", "^/tasks/*.yaml", "^/playbooks/*.yaml"],
+    },
+
+    "files.associations": {
+        // Ansible
+        "**/defaults/**/*.yml": "jinja-yaml",
+        "**/group_vars/**/*": "jinja-yaml",
+        "**/host_vars/**/*": "jinja-yaml",
+        "**/vars/**/*.yml": "jinja-yaml",
+        "**/tasks/**/*.yml": "ansible",
+        "**/handlers/*.yml": "ansible",
+        "**/meta/*.yml": "ansible",
+        "**/roles/**/*.yml": "ansible",
+        "**/playbooks/**/*.yml": "ansible",
+        "**/ansible/**/hosts": "ini",
+        "**/ansible/**/inventory": "ini",
+        "ansible.cfg": "ini",
+    },
+
+    "editor.quickSuggestions": true,
+
+    "ansible.ansible.path": "/Users/alexey/tmp/Python3_venv/bin/ansible",
+    "ansible.ansible.useFullyQualifiedCollectionNames": false,
+    "ansible.ansibleLint.arguments": "",
+    "ansible.ansibleLint.enabled": true,
+    "ansible.ansibleLint.path": "/Users/alexey/tmp/Python3_venv/bin/ansible-lint",
+    "ansible.python.activationScript": "/Users/alexey/tmp/Python3_venv/bin/activate",
+    "ansible.python.interpreterPath": "/Users/alexey/tmp/Python3_venv/bin"
+    
+
+
+}
