@@ -1,6 +1,6 @@
 export ZSH="/Users/alexey/.oh-my-zsh"
 
-ZSH_THEME="jtriley"
+ZSH_THEME="alex"
 
 plugins=(podman 
 	macos 
